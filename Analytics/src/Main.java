@@ -16,7 +16,7 @@ class Analytics {
     public void Submit(String ans) {
     	
         synchronized (Analytics.class) {
-            WorldCount++; // This is the "critical section"
+            WorldCount++; 
         } 
     	
         CountryCount++; 
